@@ -25,7 +25,7 @@ const Hero = () => {
         variants={container}
         initial="hidden"
         whileInView={"show"}
-        className="container mx-auto min-h-[40vh] h-full flex items-center justify-center"
+        className="container mx-auto min-h-[40vh] h-full flex items-center justify-center -mt-28 lg:mt-14"
       >
         {/* text & btn */}
         <div className="text-center lg:text-left font-oswald lg:max-w-[640px]">
