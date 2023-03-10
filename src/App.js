@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+
+// import components
+import Header from "./components/Header";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold">
-    Hello world!
-    </h1>
-
+    <div className="max-w-[1920px] mx-auto overflow-hidden bg-black">
+      <Header />
+    </div>
   );
 }
 
