@@ -17,8 +17,13 @@ export const navData = {
 };
 
 export const socialData = [
-  { href: "/", icon: <GrFacebookOption className="w-[25px] h-[25px]"/> },
-  { href: "/", icon: <IoLogoInstagram className="w-[25px] h-[25px]"/> },
-  { href: "/", icon: <IoLogoPinterest className="w-[25px] h-[25px]"/> },
-  { href: "/", icon: <IoLogoTwitter className="w-[25px] h-[25px]"/> },
+  { href: "/", icon: <GrFacebookOption className="w-[25px] h-[25px]" /> },
+  { href: "/", icon: <IoLogoInstagram className="w-[25px] h-[25px]" /> },
+  { href: "/", icon: <IoLogoPinterest className="w-[25px] h-[25px]" /> },
+  { href: "/", icon: <IoLogoTwitter className="w-[25px] h-[25px]" /> },
 ];
+
+export const heroData = {
+  subtitle: "Tampere Arena Libeskind",
+  btnText: "View Project",
+};
