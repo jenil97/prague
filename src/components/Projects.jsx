@@ -37,14 +37,13 @@ const Projects = () => {
         Make it with passion.
       </motion.div>
 
-      <motion.div
-        variants={fadeIn("down")}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.7 }}
-        className="lg:py-10 lg:px-0 px-20 py-8 flex lg:flex-row flex-col gap-y-8 lg:gap-x-6"
-      >
-        <div>
+      <div className="lg:py-10 lg:px-0 px-20 py-8 flex lg:flex-row flex-col gap-y-8 lg:gap-x-6">
+        <motion.div
+          variants={fadeIn("down")}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <img
             className="w-[450px] h-[240px] lg:w-[480px] lg:h-[220px] object-cover"
             src={Project1}
@@ -54,8 +53,13 @@ const Projects = () => {
             <div className="font-semibold text-xl">Poolscape Villa</div>
             <div className="text-sm">Aqaba, Jordan</div>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          variants={fadeIn("down")}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <img
             className="w-[450px] h-[240px] lg:w-[480px] lg:h-[220px] object-cover"
             src={Project2}
@@ -65,8 +69,13 @@ const Projects = () => {
             <div className="font-semibold text-xl">European Lard Station</div>
             <div className="text-sm">Strasbourg, France</div>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          variants={fadeIn("down")}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <img
             className="w-[450px] h-[240px] lg:w-[480px] lg:h-[220px] object-cover"
             src={Project3}
@@ -76,17 +85,16 @@ const Projects = () => {
             <div className="font-semibold text-xl">Yabroudi Villa</div>
             <div className="text-sm">Dubai, United Arab Emirates</div>
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
 
-      <motion.div
-        variants={fadeIn("down")}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.7 }}
-        className="lg:py-3 lg:px-0 px-20 py-4 flex lg:flex-row flex-col gap-y-8 lg:gap-x-6"
-      >
-        <div>
+      <div className="lg:py-3 lg:px-0 px-20 py-4 flex lg:flex-row flex-col gap-y-8 lg:gap-x-6">
+        <motion.div
+          variants={fadeIn("down")}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <img
             className="w-[450px] h-[240px] lg:w-[480px] lg:h-[220px] object-cover"
             src={Project4}
@@ -96,8 +104,13 @@ const Projects = () => {
             <div className="font-semibold text-xl">Cultural Complex Centre</div>
             <div className="text-sm">Muscat, Sultanate of Oman</div>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          variants={fadeIn("down")}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <img
             className="w-[450px] h-[240px] lg:w-[480px] lg:h-[220px] object-cover"
             src={Project5}
@@ -107,8 +120,13 @@ const Projects = () => {
             <div className="font-semibold text-xl">Dalbourne Villa</div>
             <div className="text-sm">Guangzhou, China</div>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          variants={fadeIn("down")}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <img
             className="w-[450px] h-[240px] lg:w-[480px] lg:h-[220px] object-cover"
             src={Project6}
@@ -118,17 +136,16 @@ const Projects = () => {
             <div className="font-semibold text-xl">Amman Rotana Hotel</div>
             <div className="text-sm">Amman, Jordan</div>
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
 
-      <motion.div
-        variants={fadeIn("down")}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.7 }}
-        className="lg:py-8 lg:px-0 px-20 py-6 flex lg:flex-row flex-col gap-y-8 lg:gap-x-6"
-      >
-        <div>
+      <div className="lg:py-8 lg:px-0 px-20 py-6 flex lg:flex-row flex-col gap-y-8 lg:gap-x-6">
+        <motion.div
+          variants={fadeIn("down")}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <img
             className="w-[450px] h-[240px] lg:w-[480px] lg:h-[220px] object-cover"
             src={Project7}
@@ -138,8 +155,13 @@ const Projects = () => {
             <div className="font-semibold text-xl">Alvar Alto Museum</div>
             <div className="text-sm">Casablanca, Morocco</div>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          variants={fadeIn("down")}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <img
             className="w-[450px] h-[240px] lg:w-[480px] lg:h-[220px] object-cover"
             src={Project8}
@@ -149,8 +171,13 @@ const Projects = () => {
             <div className="font-semibold text-xl">Dance & Music Theatre</div>
             <div className="text-sm">Perth, Australia</div>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          variants={fadeIn("down")}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <img
             className="w-[450px] h-[240px] lg:w-[480px] lg:h-[220px] object-cover"
             src={Project9}
@@ -160,8 +187,8 @@ const Projects = () => {
             <div className="font-semibold text-xl">French Embassy</div>
             <div className="text-sm">Casablanca, Morocco</div>
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
 
       <motion.div
         variants={fadeIn("down")}
