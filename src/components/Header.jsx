@@ -65,7 +65,7 @@ const Header = () => {
         <div
           className={`${navMobile ? "max-h-full" : "max-h-0 overflow-hidden"} ${
             isActive
-              ? "top-[100px] lg:top-[110px]"
+              ? "top-[90px] lg:top-[110px]"
               : "top-[100px] lg:top-[100px]"
           } fixed left-0 -z-10 w-full h-full bg-black text-white transition-all duration-300`}
         >
