@@ -10,6 +10,7 @@ module.exports = {
         hero: "url('/src/assets/Hero/BG.jpg')",
         about: "url('/src/assets/About/about.jpg')",
         services: "url('/src/assets/Services/Bg-services.jpg')",
+        clients: "url('/src/assets/Clients/clients-bg.jpg')",
       },
     },
   },
