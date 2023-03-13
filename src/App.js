@@ -11,6 +11,7 @@ import Clients from "./components/Clients";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import Map from "./components/Map";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Map />
+      <Footer />
     </div>
   );
 }
