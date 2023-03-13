@@ -10,6 +10,7 @@ import Team from "./components/Team";
 import Clients from "./components/Clients";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
+import Map from "./components/Map";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Clients />
       <Testimonial />
       <Contact />
+      <Map />
     </div>
   );
 }
