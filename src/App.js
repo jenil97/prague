@@ -9,6 +9,7 @@ import Services from "./components/Services";
 import Team from "./components/Team";
 import Clients from "./components/Clients";
 import Testimonial from "./components/Testimonial";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Team />
       <Clients />
       <Testimonial />
+      <Contact />
     </div>
   );
 }

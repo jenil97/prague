@@ -22,7 +22,7 @@ const Testimonial = () => {
       variants={fadeIn("up")}
       initial="hidden"
       whileInView={"show"}
-      viewport={{ once: false, amount: 0.1 }}
+      viewport={{ once: false, amount: 0.2 }}
       className="lg:h-[300px] h-full lg:mb-52 mb-[150px]"
     >
       <div className="container mx-auto h-full">
