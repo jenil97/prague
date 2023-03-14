@@ -11,9 +11,9 @@ import {
 export const navData = {
   items: [
     { href: "/", name: "Home" },
-    { href: "/", name: "About" },
-    { href: "/", name: "Gallery" },
     { href: "/", name: "Projects" },
+    { href: "/", name: "About" },
+    { href: "/", name: "Team" },
     { href: "/", name: "Contact" },
   ],
 };
@@ -40,13 +40,13 @@ export const testimonialData = [
   {
     quoteImg: QuoteImg,
     message:
-    "Incredible as always. This guys have excellent taste,modeling, texturing & rendering skills. The design fits in with what I would perceive as being Icelandic, the high wooden roof design and linear slatted interior elements and colours.",
+      "Incredible as always. This guys have excellent taste,modeling, texturing & rendering skills. The design fits in with what I would perceive as being Icelandic, the high wooden roof design and linear slatted interior elements and colours.",
     name: "- Jenil Patel",
   },
   {
     quoteImg: QuoteImg,
     message:
-    "Incredible as always. This guys have excellent taste,modeling, texturing & rendering skills. The design fits in with what I would perceive as being Icelandic, the high wooden roof design and linear slatted interior elements and colours.",
+      "Incredible as always. This guys have excellent taste,modeling, texturing & rendering skills. The design fits in with what I would perceive as being Icelandic, the high wooden roof design and linear slatted interior elements and colours.",
     name: "- Douglas Hane",
   },
 ];
