@@ -20,7 +20,7 @@ const container = {
 const Hero = () => {
   const { subtitle, btnText } = heroData;
   return (
-    <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:h-[520px] h-[1000px] bg-no-repeat relative mt-[100px] opacity-[0.88]">
+    <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:h-[530px] h-[1000px] bg-no-repeat relative mt-[100px] opacity-[0.88]">
       <motion.div
         variants={container}
         initial="hidden"
