@@ -97,9 +97,15 @@ const Contact = () => {
           </div>
         </form>
       </motion.div>
-      <div className="text-center lg:-ml-24 md:-ml-24 md:mt-[690px] lg:mt-[350px]">
+      <motion.div
+        variants={fadeIn("left")}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
+        className="text-center lg:-ml-24 md:-ml-24 md:mt-[690px] lg:mt-[350px]"
+      >
         <button className="px-8 py-2 bg-black text-white rounded">Send</button>
-      </div>
+      </motion.div>
     </div>
   );
 };
