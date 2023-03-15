@@ -20,22 +20,23 @@ const container = {
 const Hero = () => {
   const { subtitle, btnText } = heroData;
   return (
-    <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:h-[530px] h-[1000px] bg-no-repeat relative mt-[100px] opacity-[0.88]">
+    <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:h-[600px] h-[1000px] bg-no-repeat relative mt-[100px]">
+      <div className="absolute inset-0 bg-black bg-opacity-30"></div>
       <motion.div
         variants={container}
         initial="hidden"
         whileInView={"show"}
-        className="container mx-auto min-h-[40vh] h-full flex items-center justify-center -mt-28 lg:mt-14"
+        className="container relative mx-auto min-h-[40vh] h-full flex items-center justify-center -mt-28 lg:mt-14"
       >
         {/* text & btn */}
         <div className="text-center lg:text-left font-oswald lg:max-w-[640px]">
           {/* text */}
           <motion.p
-            className="text-white lg:text-[20px] text-xl text-center cursor-default"
+            className="text-white/80 font-normal lg:text-[20px] text-xl text-center cursor-default"
             variants={fadeIn("down")}
           >
             WE DO{" "}
-            <span className="text-black hover:underline">
+            <span className="text-white/80 font-normal">
               INTERIOR & EXTERIOR OF
             </span>
           </motion.p>
