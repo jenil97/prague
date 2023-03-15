@@ -58,7 +58,7 @@ const Services = () => {
                 <div className="mt-3 font-oswald text-3xl font-medium">
                   Planning
                 </div>
-                <p className="mt-4 text-base text-gray-500">
+                <p className="mt-4 lg:text-lg text-sm text-gray-500">
                   Our master plans provide <br /> a comprehensive look at where{" "}
                   <br /> an organization is today.
                 </p>
@@ -79,7 +79,7 @@ const Services = () => {
                 <div className="mt-3 font-oswald text-3xl font-medium ml-5">
                   Interior
                 </div>
-                <p className="mt-4 text-base text-gray-500">
+                <p className="mt-4 lg:text-lg text-sm text-gray-500">
                   You may engage your architect to <br /> provide an interior
                   design service, <br /> advising on loose furniture.
                 </p>
@@ -100,7 +100,7 @@ const Services = () => {
                 <div className="mt-3 font-oswald text-3xl font-medium ml-5">
                   Exterior
                 </div>
-                <p className="mt-4 text-base text-gray-500">
+                <p className="mt-4 lg:text-lg text-sm text-gray-500">
                   Working together with your architect, <br /> you will share
                   your project needs, <br /> dreams and goals.
                 </p>

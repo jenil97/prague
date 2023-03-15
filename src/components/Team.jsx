@@ -52,7 +52,7 @@ const Team = () => {
                 viewport={{ once: false, amount: 0.7 }}
               >
                 <img
-                  className="lg:w-[368px] lg:h-[370px] w-[350px] h-[280px] object-cover"
+                  className="lg:w-[350px] lg:h-[350px] w-[350px] h-[280px] object-cover"
                   src={Team1}
                   alt="tm1"
                 />
@@ -73,7 +73,7 @@ const Team = () => {
                 viewport={{ once: false, amount: 0.7 }}
               >
                 <img
-                  className="lg:w-[368px] lg:h-[370px] w-[350px] h-[280px] object-cover mt-10 lg:mt-0"
+                  className="lg:w-[350px] lg:h-[350px] w-[350px] h-[280px] object-cover mt-10 lg:mt-0"
                   src={Team2}
                   alt="tm2"
                 />
@@ -94,7 +94,7 @@ const Team = () => {
                 viewport={{ once: false, amount: 0.7 }}
               >
                 <img
-                  className="lg:w-[368px] lg:h-[370px] w-[350px] h-[280px] object-cover mt-10 lg:mt-0"
+                  className="lg:w-[350px] lg:h-[350px] w-[350px] h-[280px] object-cover mt-10 lg:mt-0"
                   src={Team3}
                   alt="tm3"
                 />
